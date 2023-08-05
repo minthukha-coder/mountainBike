@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountain Bike Project</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/media_query.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="main">
+        <!-- Nav Section -->
+        <nav id="nav">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a href="index.html">Mountain Bike</a>
+                    <ul class="mobile-navbar-icon" id="mobile-navbar-icon">
+                
+                        <li class="icon-item">
+                            <a href=""><i class="fas fa-user"></i></a>
+                        </li>
+                        <li class="icon-item">
+                            <a href=""><i class="fas fa-heart"></i></a>
+                        </li>
+                        <li class="icon-item">
+                            <a href=""><i class="fas fa-shopping-bag"></i></a>
+                        </li>
+                    </ul>
+                    <span id="hambargar"><i class="fas fa-bars"></i></span>
+                </div>
+
+                <ul class="navbar-menu" id="navbar-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#collection">Bicycles</a></li>
+                    <li><a href="#products">Accessories</a></li>
+                    <li><a href="#blog">About Us</a></li>
+                    <li><a href="#footer">Contact</a></li>
+
+                </ul>
+
+                <ul class="navbar-icon">
+         
+                    <li class="icon-item">
+                        <a href=""><i class="fas fa-user"></i></a>
+                    </li>
+                    <li class="icon-item">
+                        <a href=""><i class="fas fa-heart"></i></a>
+                    </li>
+                    <li class="icon-item">
+                        <a href=""><i class="fas fa-shopping-bag"></i></a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Slider Section -->
+        <section id="slider">
+            <div class="container">
+                <img src="/assets/images/home bicycle.avif" id="slider1" class="slider active">
+                <img src="/assets/images/new bike2.avif" id="slider2" class="slider">
+                <img src="/assets/images/new bike4.avif" id="slider3" class="slider">
+
+                <div class="controls">
+                    <button class="prev" id="prev_btn"><i class="fas fa-chevron-left"></i> Prev</button>
+                    <button class="next" id="next_btn"><i class="fas fa-chevron-right"></i> Next</button>
+                </div>
+
+                <div class = "content">
+                    <h2>Newly Launched</h2>
+                    <h1 class = "mb-30">Kryo X26 MTB</h1>
+                    <h3 class = "title ">Specifications:</h3>
+                    <div class="second-content">
+                        <div class="icon">
+                            <i class="fa-solid fa-bullseye"></i>
+                            <h3>Lightweight 18" Frame</h3>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-solid fa-bullseye"></i>
+                            <h3>Steel Suspension Fork</h3>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-solid fa-bullseye"></i>
+                            <h3>Steel Hardtail Frame</h3>
+                        </div>
+                    </div>
+                    <button class = "btn"><a href = "index.html">Buy Now</a></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- New Arrival -->
+        <section id="new-arrival" class="products" >
+            <div class="container">
+                <h2 class="title">New Arrivals</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, tempore.</p>
+                <div class="cards">
+                    <div class="card">
+                        <img src="/assets/images/new bike5.jpg" alt="">
+                        <div class="content">
+                            <h4>Kryo X26 MTB - Model K</h4>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+
+                            </div>
+                            <h4>$54</h4>
+                        </div>
+
+                        <div class="actions" id="actions">
+                            <span><i class="far fa-heart"></i></span>
+                            <span><i class="fas fa-shopping-bag"></i></span>
+                            <span>
+                                <a href="product_detail.html"><i class="fas fa-search"></i></a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="/assets/images/new bike3.jpg" alt="">
+                        <div class="content">
+                            <h4>Kryo X26 MTB - Model X</h4>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+
+                            </div>
+                            <h4>$35</h4>
+                        </div>
+
+                        <div class="actions" id="actions">
+                            <span><i class="far fa-heart"></i></span>
+                            <span><i class="fas fa-shopping-bag"></i></span>
+                            <span>
+                                <a href="product_detail.html"><i class="fas fa-search"></i></a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="/assets/images/bike9.jpg" alt="">
+                        <div class="content">
+                            <h4>Kryo X26 MTB - Model Y</h4>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+
+                            </div>
+                            <h4>$20</h4>
+                        </div>
+
+                        <div class="actions" id="actions">
+                            <span><i class="far fa-heart"></i></span>
+                            <span><i class="fas fa-shopping-bag"></i></span>
+                            <span>
+                                <a href="product_detail.html"><i class="fas fa-search"></i></a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="/assets/images/new bike1.jpg" alt="">
+                        <div class="content">
+                            <h4>Kryo X26 MTB - Model Z</h4>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+
+                            </div>
+                            <h4>$60</h4>
+                        </div>
+
+                        <div class="actions" id="actions">
+                            <span><i class="far fa-heart"></i></span>
+                            <span><i class="fas fa-shopping-bag"></i></span>
+                            <span>
+                                <a href="product_detail.html"><i class="fas fa-search"></i></a>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Collection -->
+        <section id="collection">
+            <div class="main-container">
+                <div class="container">
+                    <div class="content">
+                        <h2>Discover The Collection</h2>
+                        <h1>Mountain Bikes</h1>
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis rem quidem tempor.</h3>
+                    </div>
+                    <div class="second-container">
+                        <div class="second-content">
+                            <div class="icon">
+                                <i class="fa-solid fa-bullseye"></i>
+                                <h3>Officia deserunt mollit</h3>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-bullseye"></i>
+                                <h3>Officia deserunt mollit</h3>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-bullseye"></i>
+                                <h3>Officia deserunt mollit</h3>
+                            </div>
+                        </div>
+
+                        <div class="second-content">
+                            <div class="icon">
+                                <i class="fa-solid fa-bullseye"></i>
+                                <h3>Officia deserunt mollit</h3>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-bullseye"></i>
+                                <h3>Officia deserunt mollit</h3>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-bullseye"></i>
+                                <h3>Officia deserunt mollit</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn">Explore Now</button>
+                </div>
+            </div>
+
+
+        </section>
+
+        <!-- Collection -->
+        <section id="collection" class="collection2">
+            <div class="main-container">
+                <div class="container">
+                    <div class="content">
+                        <h2>Discover The Collection</h2>
+                        <h1>City Bikes</h1>
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis rem quidem tempor.</h3>
+                    </div>
+                    <div class="second-container">
+                        <div class="second-content">
+                            <div class="icon">
+                                <i class="fa-solid fa-bullseye"></i>
+                                <h3>Officia deserunt mollit</h3>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-bullseye"></i>
+                                <h3>Officia deserunt mollit</h3>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-bullseye"></i>
+                                <h3>Officia deserunt mollit</h3>
+                            </div>
+                        </div>
+
+                        <div class="second-content">
+                            <div class="icon">
+                                <i class="fa-solid fa-bullseye"></i>
+                                <h3>Officia deserunt mollit</h3>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-bullseye"></i>
+                                <h3>Officia deserunt mollit</h3>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-bullseye"></i>
+                                <h3>Officia deserunt mollit</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn">Explore Now</button>
+                </div>
+            </div>
+
+
+        </section>
+
+        <!-- Collection -->
+        <section id="collection" class="collection3">
+            <div class="main-container">
+                <div class="container">
+                    <div class="content">
+                        <h2>Discover The Collection</h2>
+                        <h1>SpecialityBikes</h1>
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis rem quidem tempor.</h3>
+                    </div>
+                    <div class="second-container">
+                        <div class="second-content">
+                            <div class="icon">
+                                <i class="fa-solid fa-bullseye"></i>
+                                <h3>Officia deserunt mollit</h3>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-bullseye"></i>
+                                <h3>Officia deserunt mollit</h3>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-bullseye"></i>
+                                <h3>Officia deserunt mollit</h3>
+                            </div>
+                        </div>
+
+                        <div class="second-content">
+                            <div class="icon">
+                                <i class="fa-solid fa-bullseye"></i>
+                                <h3>Officia deserunt mollit</h3>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-bullseye"></i>
+                                <h3>Officia deserunt mollit</h3>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-bullseye"></i>
+                                <h3>Officia deserunt mollit</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn">Explore Now</button>
+                </div>
+            </div>
+
+
+        </section>
+
+        <!-- Popular Products Section -->
+        <section id="products" class="products">
+            <div class="container">
+                <h2 class="title">Explore Accessoreis</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, tempore.</p>
+                <div class="filterable-btns">
+                    <button id="all_btn" class="active">All</button>
+                    <button id="helmet_btn">Helmet</button>
+                    <button id="gloves_btn">Gloves</button>
+                    <button id="light_btn">Bike Lights</button>
+
+                </div>
+                <div class="cards">
+                    <div class="card pcard helmet">
+                        <img src="/assets/images/helmet1.jpg" alt="">
+                        <div class="content">
+                            <h4>Helmet</h4>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <h4>$54</h4>
+                        </div>
+
+                        <div class="actions" id="actions">
+                            <span><i class="far fa-heart"></i></span>
+                            <span><i class="fas fa-shopping-bag"></i></span>
+                            <span><i class="fas fa-search"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="card pcard gloves">
+                        <img src="/assets/images/gloves1.jpg" alt="">
+                        <div class="content">
+                            <h4>Gloves</h4>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <h4>$54</h4>
+                        </div>
+
+                        <div class="actions" id="actions">
+                            <span><i class="far fa-heart"></i></span>
+                            <span><i class="fas fa-shopping-bag"></i></span>
+                            <span><i class="fas fa-search"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="card pcard light">
+                        <img src="/assets/images/light1.webp" alt="">
+                        <div class="content">
+                            <h4>Bike Lights</h4>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <h4>$54</h4>
+                        </div>
+
+                        <div class="actions" id="actions">
+                            <span><i class="far fa-heart"></i></span>
+                            <span><i class="fas fa-shopping-bag"></i></span>
+                            <span><i class="fas fa-search"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="card pcard helmet">
+                        <img src="/assets/images/helmet2.jpg" alt="">
+                        <div class="content">
+                            <h4>Helmet</h4>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <h4>$54</h4>
+                        </div>
+
+                        <div class="actions" id="actions">
+                            <span><i class="far fa-heart"></i></span>
+                            <span><i class="fas fa-shopping-bag"></i></span>
+                            <span><i class="fas fa-search"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="card pcard light">
+                        <img src="/assets/images/light2.webp" alt="">
+                        <div class="content">
+                            <h4>Bike Lights</h4>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <h4>$54</h4>
+                        </div>
+
+                        <div class="actions" id="actions">
+                            <span><i class="far fa-heart"></i></span>
+                            <span><i class="fas fa-shopping-bag"></i></span>
+                            <span><i class="fas fa-search"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="card pcard gloves">
+                        <img src="/assets/images/gloves2.jpg" alt="">
+                        <div class="content">
+                            <h4>Gloves</h4>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+
+                            </div>
+                            <h4>$54</h4>
+                        </div>
+
+                        <div class="actions" id="actions">
+                            <span><i class="far fa-heart"></i></span>
+                            <span><i class="fas fa-shopping-bag"></i></span>
+                            <span><i class="fas fa-search"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="card pcard light">
+                        <img src="/assets/images/light3.jpg" alt="">
+                        <div class="content">
+                            <h4>Bike Lights</h4>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <h4>$54</h4>
+                        </div>
+
+                        <div class="actions" id="actions">
+                            <span><i class="far fa-heart"></i></span>
+                            <span><i class="fas fa-shopping-bag"></i></span>
+                            <span><i class="fas fa-search"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="card pcard helmet">
+                        <img src="/assets/images/helmet3.jpg" alt="">
+                        <div class="content">
+                            <h4>Helmet</h4>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <h4>$54</h4>
+                        </div>
+
+                        <div class="actions" id="actions">
+                            <span><i class="far fa-heart"></i></span>
+                            <span><i class="fas fa-shopping-bag"></i></span>
+                            <span><i class="fas fa-search"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="card pcard gloves">
+                        <img src="/assets/images/gloves3.jpg" alt="">
+                        <div class="content">
+                            <h4>Gloves</h4>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <h4>$54</h4>
+                        </div>
+
+                        <div class="actions" id="actions">
+                            <span><i class="far fa-heart"></i></span>
+                            <span><i class="fas fa-shopping-bag"></i></span>
+                            <span><i class="fas fa-search"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="card pcard helmet">
+                        <img src="/assets/images/helmet4.webp" alt="">
+                        <div class="content">
+                            <h4>Helmet</h4>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+
+                            </div>
+                            <h4>$54</h4>
+                        </div>
+
+                        <div class="actions" id="actions">
+                            <span><i class="far fa-heart"></i></span>
+                            <span><i class="fas fa-shopping-bag"></i></span>
+                            <span><i class="fas fa-search"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="card pcard light">
+                        <img src="/assets/images/light4.jpg" alt="">
+                        <div class="content">
+                            <h4>Bike Lights</h4>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+
+                            </div>
+                            <h4>$54</h4>
+                        </div>
+
+                        <div class="actions" id="actions">
+                            <span><i class="far fa-heart"></i></span>
+                            <span><i class="fas fa-shopping-bag"></i></span>
+                            <span><i class="fas fa-search"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="card pcard gloves">
+                        <img src="/assets/images/gloves4.webp" alt="">
+                        <div class="content">
+                            <h4>Gloves</h4>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+
+                            </div>
+                            <h4>$54</h4>
+                        </div>
+
+                        <div class="actions" id="actions">
+                            <span><i class="far fa-heart"></i></span>
+                            <span><i class="fas fa-shopping-bag"></i></span>
+                            <span><i class="fas fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="why">
+            <div class="container">
+                <h1 class="title text-center">Why Choose KRYO?</h1>
+                <div class="cards">
+                    <div class="card">
+                        <img src="/assets/images/bike10.jpg" alt="">
+                        <div class="content">
+                            <h1>Light weight</h1>
+                            <p class="left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+                                voluptates animi labore architecto assumenda fuga?</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="/assets/images/bike11.jpg" alt="">
+                        <div class="content">
+                            <h1>Lifetime Warrenty</h1>
+                            <p class="left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+                                voluptates animi labore architecto assumenda fuga?</p>
+                        </div>
+                    </div>
+
+                    <div class="card small">
+                        <img src="/assets/images/bike12.jpg" alt="">
+                        <div class="content small">
+                            <h1>Biggest Service Network</h1>
+                            
+                        </div>
+                    </div>
+
+                    <div class="card small">
+                        <img src="/assets/images/bike16.jpg" alt="">
+                        <div class="content small">
+                            <h1>99% Assembled Delivery</h1>
+
+                        </div>
+                    </div>
+
+                    <div class="card small">
+                        <img src="/assets/images/bike14.jpg" alt="">
+                        <div class="content small">
+                            <h1>Free First Bike Service</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fashion Blog Section -->
+        <section id="blog" >
+            <div class="container">
+                <h2 class="title text-center">Mountain Bike Blogs</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="cards">
+                    <div class="card">
+                        <img src="/assets/images/bike15.jpg" alt="">
+                        <div class="content">
+                            <h4>Blog Title - Something</h4>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat est voluptatum tempora
+                            <span class="date">21 July</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="/assets/images/bike16.jpg" alt="">
+                        <div class="content">
+                            <h4>Blog Title - Something</h4>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat est voluptatum tempora
+                            <span class="date">25 July</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="/assets/images/bike2.avif" alt="">
+                        <div class="content">
+                            <h4>Blog Title - Something</h4>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat est voluptatum tempora
+                            <span class="date">23 July</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="join">
+            <div class="container">
+                <h1 class="title text-center">Join#GoEchoBiking Programme</h1>
+                <div class="video-container">
+                    <iframe width="1200" height="600" src="https://www.youtube.com/embed/ZHC83lE2qM4"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="content">
+                    <div class="first">
+                        <h1>Duis aute irure dolor in reprehenderit velit.</h1>
+                        <p class="left">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, aperiam.</p>
+                    </div>
+                    <div class="btn-container">
+                        <button type="submit" class="btn">Join The Programme</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="shop">
+            <div class="container">
+                <div class="content">
+                    <h2 class="text-center">The All New</h2>
+                    <h1 class="text-center">Kryo X26 MTB Is Here</h1>
+                    <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores soluta
+                        reprehenderit aut! Magnam aut tenetur labore, enim nulla dolor soluta consequatur? Recusandae
+                        suscipit in ut eius rem obcaecati numquam voluptate.</p>
+                    <button class="btn"><a href = "index.html">Shop Now</a></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Letter Section -->
+        <section id="news-letter">
+            <div class="container">
+                <h1 class="title text-center">Subscribe to Our News Letter</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <form>
+                    <input type="text" placeholder="Email">
+                    <button class="btn">Subscribe</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <section id="footer">
+            <div class="container">
+                <ul>
+                    <li>
+                        <h4>About Us</h4>
+                    </li>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit libero accusantium corporis, sit,
+                        necessitatibus amet odio saepe fugit dolorum praesentium quae ipsa? Pariatur placeat esse quo
+                        quisquam eos, recusandae eaque?</p>
+                    <li>
+                        <img src="/assets/images/master-card.png" alt="">
+                        <img src="/assets/images/kbz.png" alt="">
+                        <img src="/assets/images/visa.png" alt="">
+                        <img src="/assets/images/cb pay.jpg" alt="">
+
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <h4>Useful Link</h4>
+                    </li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#collection">Bicycles</a></li>
+                    <li><a href="#products">Accessories</a></li>
+                    <li><a href="#blog">About Us</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <h4>Contact Infos</h4>
+                    </li>
+                    <li>mountainbike@gmail.com</li>
+                    <li>09-12121212/ 09-975483307</li>
+                    <li class="social-medias">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
+        <a href="#slider" id="gototop">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+        <script src="assets/js/app.js"></script>
+    </div>
+    </div>
+</body>
+
+</html>

@@ -252,6 +252,25 @@
         flex-direction:column;
     }
 
+    /* why */
+    
+    #why .cards .card .content{
+        font-size:13px;
+        position:absolute;
+        top:100%;
+        left:0%;
+        padding:10px;
+        border-radius:0 8rem 0 3rem;
+    }
+
+    #why .cards .card:hover .content{
+        visibility:visible;
+        top:50%;
+    }
+
+
+
+
     /* Footer */
     #footer > .container{
         flex-direction:column;

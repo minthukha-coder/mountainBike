@@ -129,6 +129,8 @@ body{
   position:relative;
 }
 
+
+
 #slider .content{
     position:absolute;
     top:20%;
@@ -192,7 +194,7 @@ body{
     position:absolute;
     top:0;
     left:0;
-    background-color:yellow;
+    background-color:red;
     transform-origin:top left;
     transform:rotate(90deg);
     transition:all 0.5s;
@@ -375,7 +377,7 @@ body{
     padding:20px 0;
     background-image:url("../images/new bike7.avif");
     background-size:cover;
-    background-position:100% 40%;
+    background-position:50% 50%;
     background-attachment:fixed;
     height:90vh;
     color:#fff;
@@ -441,7 +443,7 @@ body{
     position:absolute;
     top:0;
     left:0;
-    background-color:yellow;
+    background-color:red;
     transform-origin:top left;
     transform:rotate(90deg);
     transition:all 0.5s;
@@ -458,7 +460,7 @@ body{
     padding:25px 0;
     background-image:url('../images/bike18.avif');
     background-size:cover;
-    background-position:100% 40%;
+    background-position:50% 50%;
     background-attachment:fixed;
     height:90vh;
     color:#fff;
@@ -468,7 +470,7 @@ body{
     padding:25px 0;
     background-image:url('../images/new bike8.avif');
     background-size:cover;
-    background-position:100% 40%;
+    background-position:50% 50%;
     background-attachment:fixed;
     height:90vh;
     color:#fff;
@@ -515,7 +517,7 @@ body{
     object-fit:cover;
 }
 
-#why .cards .card .content{  
+#why .cards .card .content, .content2{  
     background-color:#ff6c04;
     position:absolute;
     top:100%;
@@ -546,7 +548,7 @@ body{
     object-fit:cover;
 }
 
-#why .cards .card .content.small{
+#why .cards .card .content2.small{
     position:absolute;
     top:-20%;
     left:-50%;
@@ -562,7 +564,7 @@ body{
     transition:all 0.5s;
 }
 
-#why .cards .card:hover .content.small{
+#why .cards .card:hover .content2.small{
     top:-16.8%;
     left:15%;
     overflow:hidden;
@@ -635,7 +637,7 @@ body{
     position:absolute;
     top:0;
     left:0;
-    background-color:yellow;
+    background-color:red;
     transform-origin:top left;
     transform:rotate(90deg);
     transition:all 0.5s;
@@ -769,7 +771,7 @@ body{
     display:block;
     margin:50px auto;
     padding:10px 40px;
-    background-color:red;
+    background-color:#d2691e;
     color:#fff;
     border-radius:3px;
     border:none;
@@ -786,7 +788,7 @@ body{
     position:absolute;
     top:0;
     left:0;
-    background-color:#7FFF00;
+    background-color:red;
     transform-origin:top left;
     transform:rotate(90deg);
     transition:all 0.5s;

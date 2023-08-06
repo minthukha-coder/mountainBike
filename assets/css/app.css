@@ -373,7 +373,7 @@ body{
 
 #collection{
     padding:20px 0;
-    background-image:url('assets/images/new bike7.avif');
+    background-image:url('/assets/images/new bike7.avif');
     background-size:cover;
     background-position:100% 40%;
     background-attachment:fixed;
@@ -456,7 +456,7 @@ body{
 
 #collection.collection2{
     padding:25px 0;
-    background-image:url('assets/images/bike18.avif');
+    background-image:url('/assets/images/bike18.avif');
     background-size:cover;
     background-position:100% 40%;
     background-attachment:fixed;
@@ -466,7 +466,7 @@ body{
 
 #collection.collection3{
     padding:25px 0;
-    background-image:url('assets/images/new bike8.avif');
+    background-image:url('/assets/images/new bike8.avif');
     background-size:cover;
     background-position:100% 40%;
     background-attachment:fixed;
@@ -737,7 +737,7 @@ body{
 
 #shop{
     padding:25px 0;
-    background-image:url('assets/images/new bike9.avif');
+    background-image:url('/assets/images/new bike9.avif');
     background-size:cover;
     background-position:100% 40%;
     background-attachment:fixed;
@@ -816,7 +816,7 @@ body{
 #news-letter{
     padding:50px 0;
     height:50vh;
-    background-image:url('assets/images/bg color.jpg');
+    background-image:url('/assets/images/bg color.jpg');
     background-size:cover;
     object-position:100% 0%;
     color:#fff;
